@@ -13,6 +13,6 @@ public class userSrvImpl implements userSrv {
     @Override
     public userDto selectUserInfo(String username){
         userDto userDto=userDao.selectUesrInfo(username);
-        return userDto;
+        return null;
     }
 }
